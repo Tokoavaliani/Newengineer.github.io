@@ -1,0 +1,204 @@
+/*Resetting user agent stylesheets*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: scroll;
+    font-family: "Space Mono";
+}
+
+/* Sorts the top banner - fixed and a shorter width too transitions made as well*/
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: red;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px darkgray;
+}
+
+nav{
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav ul li{
+    padding: 5px;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s linear 0.1s;
+}
+
+header a:hover{
+    color: white;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.title{
+    display: block;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Margin to top to adjust for fixed top banner - general decorations and that as well*/
+main{
+    margin: 0 auto;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.welcome{
+    width: 90%;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.welcome h4{
+    text-transform: uppercase;
+}
+
+.welcome p{
+    font-size: 1.25rem;
+}
+
+.box{
+    width: 100%;
+}
+
+hr{
+    margin: 50px;
+    border-top: 2px dashed black
+    
+}
+
+/* Organises the boxes to be side by side*/
+.large-container {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato";
+    font-size: 1rem;
+}
+
+#flex-center{
+    display:flex;
+    justify-content: center;
+}
+
+#flex-around{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.small-container{
+    margin: 10px;
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    display: inline-flex;
+    font-family: "Lato";
+    font-size: 1rem;
+}
+
+/* Organising the footer at the bottom but not fixed*/
+footer{
+    height:120px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.large-container h3{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.large-container{
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s linear 0.1s;
+}
+
+footer a:hover{
+    color: rgba(256, 256, 256, 0.5);
+}
+
+footer ul li{
+    padding: 0px;
+    font-size: 1rem;
+    letter-spacing: 0.075rem;
+}
+
+/* Article CSS */
+main h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.article-details{
+    text-align: center;
+}
+
+.article-details ul li{
+    display: inline-flex;
+    font-size: 0.75rem;
+}
+
+main h3{
+    text-decoration: underline;
+}
+
+main p{
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+span{
+    border: 2px dashed black;
+    display: block;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: all 0.25s linear 0.1s
+}
+
+span:hover{
+    opacity: 0.5;
+}
+
+span a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#lacks-height{
+    height: 700px;
+}
+
+iframe{
+    display: inline-flex;
+    overflow: hidden;
+    height: 360px;
+    width: 640px;
+}
